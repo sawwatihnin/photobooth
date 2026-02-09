@@ -1,0 +1,31 @@
+{
+  "name": "livephotobooth",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@mediapipe/camera_utils": "^0.3.1675466862",
+    "@mediapipe/hands": "^0.4.1675469240",
+    "lucide-react": "^0.562.0",
+    "next": "^16.1.6",
+    "openai": "^6.18.0",
+    "react": "^19.2.4",
+<<<<<<< HEAD
+    "react-dom": "^19.2.4"
+=======
+    "react-dom": "^19.2.4",
+    "zustand": "^5.0.11"
+>>>>>>> ffb6287a (feat: resolve build errors and add photobooth logic)
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.17",
+    "eslint": "8.56.0",
+    "postcss": "^8.4.31",
+    "tailwindcss": "^3.4.1"
+  }
+}
