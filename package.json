@@ -15,12 +15,8 @@
     "next": "^16.1.6",
     "openai": "^6.18.0",
     "react": "^19.2.4",
-<<<<<<< HEAD
-    "react-dom": "^19.2.4"
-=======
     "react-dom": "^19.2.4",
     "zustand": "^5.0.11"
->>>>>>> ffb6287a (feat: resolve build errors and add photobooth logic)
   },
   "devDependencies": {
     "autoprefixer": "^10.4.17",
