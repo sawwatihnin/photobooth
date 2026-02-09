@@ -43,24 +43,6 @@ function BoothContent() {
     }
   }, [searchParams, router]);
 
-  // AI BACKGROUND LOGIC: Fetch the background based on name
-  useEffect(() => {
-    async function getBackground() {
-      try {
-        const res = await fetch('/api/generate', {
-          method: 'POST',
-          headers: { 'Content-Type': 'application/json' },
-          body: JSON.stringify({ name: boothName }),
-        });
-        const data = await res.json();
-        if (data.imageUrl) setAiBackground(data.imageUrl);
-      } catch (err) {
-        console.error("AI fetch failed:", err);
-      }
-    }
-    if (boothName && boothName !== "STUDIO SESSION") getBackground();
-  }, [boothName]);
-
   const filters = [
       {
   name: 'Blurred Pinlk',
